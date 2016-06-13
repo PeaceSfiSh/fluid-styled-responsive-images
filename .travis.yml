@@ -50,5 +50,9 @@ script:
     .Build/bin/phpunit --colors  -c .Build/vendor/typo3/cms/typo3/sysext/core/Build/UnitTests.xml Tests/Unit/
   - >
     echo;
+    echo "Running phpcs";
+    .Build/bin/phpcs -psn --colors --extensions=php --encoding=utf-8 --standard=PSR2 --ignore=".Build" .
+  - >
+    echo;
     echo "Running php lint";
     find . -name \*.php ! -path "./.Build/*" | parallel --gnu php -d display_errors=stderr -l {} \;

@@ -21,7 +21,8 @@
         "typo3/cms": "~7.6.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.8.0"
+        "phpunit/phpunit": "~4.8.0",
+        "squizlabs/php_codesniffer": "~2.6.0"
     },
     "replace": {
         "fluid_styled_responsive_images": "self.version",
