@@ -1,7 +1,15 @@
-7.6.0 / 17-08-06
+8.7.1 / 17-09-19
 ==================
 
-  * 2017-08-06  bec222d  [TASK] Set version to 7.6.0 (Alexander Schnitzler)
+  * 2017-09-18  3c81598  [TASK] Add TYPO3 8.7.3 and 8.7.4 to testing matrix (Alexander Schnitzler)
+  * 2017-09-18  2d6b793  [BUGFIX] Fix cropping with TYPO3 >= 8.7.4 (Devid Messner)
+
+8.7.0 / 17-08-06
+==================
+
+  * 2017-08-06  940a966  [BUGFIX] Respect new cropping format during image rendering (Heiko Bihlmaier)
+  * 2017-08-06  d65359d  [TASK] Add functional tests to check the new cropping functionality (Alexander Schnitzler)
+  * 2017-08-06  f911935  [TASK] Adjust tests for TYPO3 8.7 (Alexander Schnitzler)
   * 2017-08-06  6e2df51  [TASK] Add .gitattributes (Alexander Schnitzler)
   * 2017-08-06  e034f46  [TASK] Prepare master to become TYPO3 7 LTS branch (Alexander Schnitzler)
   * 2017-06-29  824c04b  [TASK] Make code PSR-2 compatible (Alexander Schnitzler)
